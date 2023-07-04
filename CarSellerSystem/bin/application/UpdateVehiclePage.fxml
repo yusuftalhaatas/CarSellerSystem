@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UpdateVehiclePageController">
+   <children>
+      <Label layoutX="14.0" layoutY="20.0" prefHeight="49.0" prefWidth="348.0" text="ENTER PLATE NUMBER FOR UPDATE" textFill="#d01818">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <TextField layoutX="344.0" layoutY="25.0" prefHeight="40.0" prefWidth="230.0" fx:id="plateNumberTextField" />
+      <Label layoutX="197.0" layoutY="98.0" prefHeight="49.0" prefWidth="147.0" text="New Price">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField layoutX="182.0" layoutY="160.0" prefHeight="56.0" prefWidth="178.0" fx:id="newPriceTextField">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </TextField>
+      <Label layoutX="369.0" layoutY="156.0" prefHeight="56.0" prefWidth="51.0" text="\$">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="303.0" prefHeight="15.0" prefWidth="311.0" text="Vehicle Not Found!!" textFill="#e12d2d" fx:id="notFoundLabel">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button layoutX="373.0" layoutY="272.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="172.0" text="Update" fx:id="updateButton">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
